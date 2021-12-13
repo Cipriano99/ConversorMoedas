@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# ConversorMoedas!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O aplicativo ConversorMoedas! permite que você converta valores com a cotação atual das moedas Real, Dólar e Euro.
 
-## Available Scripts
+## Funcionalidaes
 
-In the project directory, you can run:
+- Converta valores de Real para Dólar e Euro.
+- Converta valores de Dólar para Euro e Real.
+- Converta valores de Euro para Real e Dólar.
 
-### `yarn start`
+## Imagens do aplicativo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Tela inicial
+  ![Tela inicial](./public/systemImages/telaInicial.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Convertendo em Real
+  ![Convertendo em Real](./public/systemImages/real.png)
 
-### `yarn test`
+- Convertendo em Dolar
+  ![Convertendo em Dolar](./public/systemImages/dolar.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Convertendo em Euro
+  ![Convertendo em Euro](./public/systemImages/euro.png)
 
-### `yarn build`
+## Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ReactJs](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled components](https://styled-components.com/)
+- [Axios](https://axios-http.com/ptbr/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Clone este repositório para a sua máquina
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/Cipriano99/ConversorMoedas
+```
 
-### `yarn eject`
+## Instale todas as dependências
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+#Com o npm
+npm install #ou npm -i
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#Com Yarn
+yarn install #ou somente yarn
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Execute o ConversorMoedas! na sua máquina
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+#Com o npm
+npm run start
 
-## Learn More
+#Com Yarn
+yarn srtat
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Após executar o comando acima, a aplicação irá abrir automaticamente no [http://localhost:3000](http://localhost:3000) no seu navegador padrão.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Execute os testes unitários
+
+```bash
+#Com o npm
+npm run test
+
+#Com Yarn
+yarn test
+```
+
+- Resutado dos testes
+  ![Testes Unitatios](./public/systemImages/testes.png)
